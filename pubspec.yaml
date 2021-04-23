@@ -32,6 +32,8 @@ dependencies:
   qr: 
   qr_flutter:
   qr_code_scanner:
+  wave_drawer: ^0.1.1
+  slimy_card: ^1.0.4
 
 
 
@@ -49,10 +51,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+   - asset/images/
 
   # To add assets to your application, add an assets section, like this:
-assets:
-   - images/
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
